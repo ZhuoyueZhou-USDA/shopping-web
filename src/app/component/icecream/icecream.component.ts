@@ -7,8 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IcecreamComponent implements OnInit {
 
+  listShow = false;
   constructor() { }
 
+    showList() {
+    this.listShow = !this.listShow;
+    }
   ngOnInit() {
   }
 
