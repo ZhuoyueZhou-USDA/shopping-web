@@ -8,6 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class IcecreamComponent implements OnInit {
 
   listShow = false;
+    iceCreams = [
+        {name : 'Green Tea', img: '/assets/img/icecream/greentea.jpg', price : 8},
+        {name : 'Venilla', img: '/assets/img/icecream/vanilla.jpg', price : 7},
+        {name : 'Chocolate', img: '/assets/img/icecream/chocolate.jpg', price : 7}
+    ];
+    shoppingCart = [];
   constructor() { }
 
     showList() {
@@ -15,5 +21,8 @@ export class IcecreamComponent implements OnInit {
     }
   ngOnInit() {
   }
-
+    addToCart(item) {
+    this.shoppingCart.push(item);
+    console.log(this.shoppingCart);
+    }
 }
