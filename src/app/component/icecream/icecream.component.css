@@ -307,6 +307,122 @@
 
     min-height: 1px;
 }
+._3pi3SclL6Xt7gqinDQ6SFg {
+    padding-left: 18px;
+    padding-right: 13px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(104, 57, 26, 0.30000000000000004);
+}
+.openrest_cartview_wrapper ._3pi3SclL6Xt7gqinDQ6SFg>.title {
+    font: normal normal normal 14px/1.4em proxima-n-w01-reg,sans-serif;
+    color: rgb(104, 57, 26);
+    display: inline;
+    margin: 0;
+}
+._3pi3SclL6Xt7gqinDQ6SFg .numitems {
+    float: right;
+    font: normal normal normal 14px/1.4em proxima-n-w01-reg,sans-serif;
+    color: rgba(104, 57, 26, 0.8);
+}
+.openrest_cartview_wrapper {
+    padding-top: 20px;
+}
+.openrest_web_CartView_ItemsArea_wrapper>.items_container>.empty_cart>.svg_empty_cart {
+    width: 55px;
+    margin: auto;
+}
+.openrest_web_CartView_ItemsArea_wrapper>.items_container>.empty_cart>.text {
+    font: normal normal normal 14px/1.4em proxima-n-w01-reg,sans-serif;
+    color: rgba(104, 57, 26, 0.30000000000000004);
+    margin-top: 12px;
+    text-align: center;
+}
+.openrest_web_CartView_ItemsArea_wrapper>.items_container>.empty_cart {
+    padding: 42px;
+    text-align: center;
+}
+.openrest_web_CartView_ItemsArea_wrapper>.items_container {
+    width: calc(100% - 1px);
+    position: relative;
+    overflow: hidden;
+
+}
+.openrest_web_CartView_ItemsArea_wrapper>.items_container>.empty_cart>.svg_empty_cart path {
+    fill: rgba(104, 57, 26, 0.30000000000000004);
+}
+.openrest_cartview_wrapper>.itemsarea_bottomborder {
+    background-color: rgb(104, 57, 26);
+    height: 2px;
+    width: calc(100% - 12px - 12px);
+    display: block;
+    margin-left: 12px;
+    margin-bottom: 0;
+}
+.openrest_cartview_wrapper>.summary {
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(104, 57, 26, 0.30000000000000004);
+    padding-top: 19px;
+    padding-bottom: 8px;
+}
+.openrest_cartview_wrapper>.summary>.subtotal {
+    font: normal normal normal 14px/1.4em proxima-n-w01-reg,sans-serif;
+    color: rgb(104, 57, 26);
+}
+.openrest_cartview_wrapper>.summary>.line>.amount {
+    float: right;
+}
+.openrest_cartview_wrapper>.summary>.line>.title {
+    float: left;
+}
+.openrest_cartview_wrapper>.summary>.line {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 7px;
+    clear: both;
+}
+.openrest_checkoutcontinuebutton_wrapper .buttonLabel {
+    opacity: 1;
+    transition: all .3s ease-out;
+}
+.openrest_checkoutcontinuebutton_wrapper .buttonLabel>svg.flip {
+    transform: rotate(180deg);
+}
+.openrest_cartview_wrapper .ordernowbutton {
+    float: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: block;
+    height: 48px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    width: 100%;
+    transition: opacity .5s;
+    min-width: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    background-color: rgb(104, 57, 26);
+}
+.openrest_checkoutcontinuebutton_wrapper {
+    float: right;
+    line-height: 47px!important;
+    text-transform: uppercase;
+    min-width: 235px;
+    padding: 0 10px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font: normal normal bold 14px/18px proxima-n-w01-reg,sans-serif;
+}
 @media only screen and (max-width: 1024px)
           .openrest_wixrestaurantordersapplicationview_wrapper:not(.restaurants-portal) .RestaurantMenuTableViewOrder__subcategory___3n9VA .RestaurantMenuTableViewOrder__item___K8aMy:nth-child(odd) {
               margin-right: calc((100% - 490px)/3);
