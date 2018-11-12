@@ -1,0 +1,32 @@
+.input_contact{
+    width: 100%;
+    height:30px;
+    margin: 5px;
+    padding-left: 6px;
+    border:1px solid darkgrey;
+}
+textarea{
+    width: 100%;
+    margin:5px;
+    padding-left: 6px;
+    border:1px solid darkgrey;
+}
+.about_div{
+    min-width: 980px;
+    background-color:#fff;
+    position: relative;
+    top: 50px;
+    height: 650px;
+    width: 1088px;
+    margin:10px auto;
+    padding: 20px 30px;
+}
+.btn-primary{
+    background-color: rgba(103, 189, 199, 1);
+    font: normal normal normal 15px/1.4em proxima-n-w01-reg,sans-serif;
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 0;
+    float:right;
+}
